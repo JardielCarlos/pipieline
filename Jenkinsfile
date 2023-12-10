@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                sh 'mkdir -p /.local'
                 sh 'chmod -R 777 /.local'
                 sh 'pip install --upgrade --user pip'
                 sh 'pip install --user flask'
