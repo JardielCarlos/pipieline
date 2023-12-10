@@ -9,7 +9,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'python test.py'
+                sh 'bash -c "source env/bin/activate; python test.py"'
             }
         }
     }
