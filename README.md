@@ -1,4 +1,4 @@
-# Execução do Projeto Pipeline com Jenkins
+# Execução do Projeto `Pipeline` com Jenkins
 ## Permissões Necessárias:
 Entre no diretório abaixo
 ```
